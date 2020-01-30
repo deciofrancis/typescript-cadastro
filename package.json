@@ -1,0 +1,24 @@
+{
+  "name": "typescript-cadastro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deciofrancis/typescript-cadastro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deciofrancis/typescript-cadastro/issues"
+  },
+  "homepage": "https://github.com/deciofrancis/typescript-cadastro#readme",
+  "devDependencies": {
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {}
+}
