@@ -1,9 +1,9 @@
 class Negociacao {
-    constructor(cidade, data, quantidade, valor) {
-        this._cidade = cidade;
-        this._data = data;
-        this._quantidade = quantidade;
-        this._valor = valor;
+    constructor(_cidade, _data, _quantidade, _valor) {
+        this._cidade = _cidade;
+        this._data = _data;
+        this._quantidade = _quantidade;
+        this._valor = _valor;
     }
     get cidade() {
         return this._cidade;

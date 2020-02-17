@@ -1,18 +1,6 @@
 class Negociacao {
 
-    private _cidade;
-    private _data;
-    private _quantidade;
-    private _valor;
-
-    constructor(cidade, data, quantidade, valor) {
-        
-        this._cidade = cidade;
-        this._data = data;
-        this._quantidade = quantidade;
-        this._valor = valor;
-
-    }
+    constructor(private _cidade: string, private _data: Date, private _quantidade: number, private _valor: number) {}
 
     get cidade() {
 
